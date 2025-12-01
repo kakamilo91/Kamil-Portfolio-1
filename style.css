@@ -138,3 +138,25 @@ button {
     display: flex;                             /*button container display*/
     justify-content: center;                  /*button container justify content*/
 }
+
+@media (max-width: 768px) {                     /*responsive styles for screens smaller than 768px*/
+    .flex-container {
+        flex-direction: column;               /*flex container flex direction*/
+        align-items: center;                 /*flex container align items*/
+    }
+
+.flex-item {
+    width: 90%;                                  /*flex item width*/
+    margin: 10px 0;                                /*flex item margin*/
+}
+
+.image-box {
+    width: 100%;                                 /*image box width*/
+    height: auto;                                /*image box height*/
+}
+
+nav a {
+    display: inline-block;                          /*nav link display*/
+    margin: 5px;                              /*nav link margin*/
+}
+}
